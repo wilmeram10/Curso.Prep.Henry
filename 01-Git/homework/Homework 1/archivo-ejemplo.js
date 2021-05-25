@@ -1,1 +1,1 @@
-console.log("My firts repository");
+console.log("¡Hello!, ¿How are you?, this is my first repository.");
