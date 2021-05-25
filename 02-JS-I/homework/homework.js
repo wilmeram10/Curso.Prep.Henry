@@ -181,7 +181,8 @@ redondearHaciaArriba(9.000000000001);
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  return Math.round(Math.random()); //Número al azar
+  return Math.round(Math.random());
+  
 }
 numeroRandom();
 
