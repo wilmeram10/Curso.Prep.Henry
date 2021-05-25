@@ -207,7 +207,7 @@ function tablaDelSeis(){
   for(var i=0; i<=10; i++){
   	tabla [i]= 6 * i;
   }
-return tabla;//
+return tabla;
 }
 tablaDelSeis();
 
