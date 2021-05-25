@@ -121,7 +121,7 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-  if(numero % 2 === 0){
+  if(numero === Math.floor(numero)){
   	return true;
   }else{
   	return false;
@@ -139,7 +139,7 @@ function fizzBuzz(numero) {
   }else if(numero % 3 === 0){
   	return "fizz";  
   }else if(numero % 5 === 0){
-  	return "buzz";  	
+  	return "buzz";  	  
   }else{
   	return numero;
   }
@@ -204,10 +204,10 @@ function tablaDelSeis(){
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí  
   var tabla = []; 
-  for(var i=0; i<=60; i++){
-  	tabla= 6 * i;
-  	console.log(tabla);
-  }  
+  for(var i=0; i<=10; i++){
+  	tabla [i]= 6 * i;
+  }
+  return tabla;
 }
 tablaDelSeis();
 
@@ -229,10 +229,10 @@ function doWhile(numero) {
   //Usar el bucle do ... while.
   var lim = 0;
   do{
-  	numero = numero + 5;
-  	lim++;
+    numero+=5;
+    lim++;
   }while(lim < 8);
-  console.log(numero);
+  return numero;
 }
 doWhile(5);
 
