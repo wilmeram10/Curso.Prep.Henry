@@ -4,7 +4,7 @@ El ciclo for es una secuencia que se va a repetir una y otra vez siempre y cuand
 Si tus padres te dicen que si haces el aseo a la casa por lo menos tres veces a la semana te darán un premio de lo contrario no te darán nada, con esto el niño sabe que si no cumple este requisito no tendrá ese premio que tanto anhela y que debe repetir ese proceso durante todas las semanas para ser premiado. 
 
 Y por último veremos los operadores lógicos: 
-El primer operador lógico es el AND que de denota o se representa con el siguiente doble símbolo && y este indica que todas las condiciones se deben cumplir para que se ejecute una instrucción. Ej Si los padres le pone como requisito al hijo que debe sacar las ultimas que notas que le quedan por encima de 3,999 para llevarlo al parque de atracciones entonces el niño sabe que se debe esforzar mucho para sacar esas notas y por una que tenga por debajo de lo establece pierde. 
+El primer operador lógico es el AND que se denota o se representa con el siguiente doble símbolo && y este indica que todas las condiciones se deben cumplir para que se ejecute una instrucción. Ej Si los padres le pone como requisito al hijo que debe sacar las ultimas notas que le quedan por encima de 3,9 para llevarlo al parque de atracciones entonces el niño sabe que se debe esforzar mucho para sacar esas notas y por una que tenga por debajo de lo establecido pierde. 
 
 El segundo operador lógico es el OR que se representa con la doble barra ||, y este no dice que si algunas de las condiciones se cumple aprueba de lo contrario reprueba. 
 
