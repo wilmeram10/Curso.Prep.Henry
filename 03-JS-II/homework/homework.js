@@ -10,7 +10,7 @@ function obtenerMayor(x, y) {
   }else{
   	return y;
   }
-}obtenerMayor(10, -10); // 10 
+}
 
 
 function mayoriaDeEdad(edad) {
@@ -23,7 +23,7 @@ function mayoriaDeEdad(edad) {
   	return "Not allowed";
   }
 }
-mayoriaDeEdad(21); // Allowed
+
   
 function conection(status) {
   //Recibimos un estado de conexión de un usuario representado por un valor numérico. 
@@ -39,7 +39,7 @@ function conection(status) {
   	return "Offline";
   }
 }
-conection(2); // Away
+
 
 function saludo(idioma) {
   // Devuelve un saludo en tres diferentes lenguajes:
@@ -58,7 +58,7 @@ function saludo(idioma) {
   	return "Hola!";
   }
 }
-saludo("mandarin");
+
 
 function colors(color) {
   //La función recibe un color. Devolver el string correspondiente:
@@ -70,24 +70,18 @@ function colors(color) {
   //Usar el statement Switch.
   switch (color){
   	case "blue":
-  	return "This is blue";
-  	break;
+  	return "This is blue";  	
   	case "red":
-  	return "This is red";
-  	break;
+  	return "This is red";  	
   	case "green":
-  	return "This is green";
-  	break;
+  	return "This is green";  	
   	case "orange":
-  	case "red":
-  	return "This is orange";
-  	break;
+    return "This is orange";  	
   	default:
-  	return "Color not found";
-  	break;
+  	return "Color not found";  	
   }
 }
-colors("blue");
+
 
 function esDiezOCinco(numero) {
   // Devuelve "true" si "numero" es 10 o 5
@@ -99,7 +93,7 @@ function esDiezOCinco(numero) {
   	return false;
   }
 }
-esDiezOCinco(10);
+
 
 function estaEnRango(numero) {
   // Devuelve "true" si "numero" es menor que 50 y mayor que 20
@@ -111,7 +105,7 @@ function estaEnRango(numero) {
   	return false;
   }
 }
-estaEnRango(21);
+
 
 function esEntero(numero) {
   // Devuelve "true" si "numero" es un entero (int/integer)
@@ -127,7 +121,7 @@ function esEntero(numero) {
   	return false;
   }
 }
-esEntero(10);
+
 
 function fizzBuzz(numero) {
   // Si "numero" es divisible entre 3, devuelve "fizz"
@@ -144,7 +138,7 @@ function fizzBuzz(numero) {
   	return numero;
   }
 }
-fizzBuzz(3);
+
 
 function operadoresLogicos(num1, num2, num3) {
   //La función recibe tres números distintos. 
@@ -165,7 +159,7 @@ function operadoresLogicos(num1, num2, num3) {
   	return false;
   }
 }
-operadoresLogicos(10, 5, 2);
+
 
 function esPrimo(numero) {
   // Devuelve "true" si "numero" es primo
@@ -185,7 +179,7 @@ function esPrimo(numero) {
   	return false;
   }
 }
-esPrimo(1);
+
 
 function esVerdadero(valor){
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
@@ -197,7 +191,7 @@ function esVerdadero(valor){
   	return "Soy falso";
   }
  }
- esVerdadero(true);
+ 
 
 function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
@@ -209,7 +203,7 @@ function tablaDelSeis(){
   }
 return tabla;
 }
-tablaDelSeis();
+
 
 
 function tieneTresDigitos(numero){
@@ -221,7 +215,7 @@ function tieneTresDigitos(numero){
   	return false;
   }
 }
-tieneTresDigitos(100);
+
 
 function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
@@ -234,7 +228,7 @@ function doWhile(numero) {
   }while(lim < 8);
   return numero;
 }
-doWhile(5);
+
 
 
 // No modificar nada debajo de esta línea

@@ -1,4 +1,4 @@
-Respuesta tarea JSII
+Respuesta tarea JSII.
 
 El ciclo for es una secuencia que se va a repetir una y otra vez siempre y cuando se cumpla una determinada condición, ejemplo: 
 Si tus padres te dicen que si haces el aseo a la casa por lo menos tres veces a la semana te darán un premio de lo contrario no te darán nada, con esto el niño sabe que si no cumple este requisito no tendrá ese premio que tanto anhela y que debe repetir ese proceso durante todas las semanas para ser premiado. 
