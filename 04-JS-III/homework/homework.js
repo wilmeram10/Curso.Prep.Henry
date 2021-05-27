@@ -41,7 +41,7 @@ function agregarItemAlFinalDelArray(array, elemento) {
   array.push(elemento);
   return array;
 }
-agregarItemAlFinalDelArray(['Mono', 'Kathia', 'Tommy', 'Minina', 'Tobby', 'Papi'], 'Mis mascotas');
+
 
 
 function agregarItemAlComienzoDelArray(array, elemento) {
